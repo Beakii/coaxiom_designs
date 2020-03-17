@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/coaxiom/static/css/main.62af85bd.chunk.css",
+    "main.js": "/coaxiom/static/js/main.9773de8a.chunk.js",
+    "main.js.map": "/coaxiom/static/js/main.9773de8a.chunk.js.map",
+    "runtime-main.js": "/coaxiom/static/js/runtime-main.ec98a8c1.js",
+    "runtime-main.js.map": "/coaxiom/static/js/runtime-main.ec98a8c1.js.map",
+    "static/js/2.f77bad7b.chunk.js": "/coaxiom/static/js/2.f77bad7b.chunk.js",
+    "static/js/2.f77bad7b.chunk.js.map": "/coaxiom/static/js/2.f77bad7b.chunk.js.map",
+    "index.html": "/coaxiom/index.html",
+    "precache-manifest.3d055efe1f660cebd28dad0e4e5895b4.js": "/coaxiom/precache-manifest.3d055efe1f660cebd28dad0e4e5895b4.js",
+    "service-worker.js": "/coaxiom/service-worker.js",
+    "static/css/main.62af85bd.chunk.css.map": "/coaxiom/static/css/main.62af85bd.chunk.css.map",
+    "static/js/2.f77bad7b.chunk.js.LICENSE.txt": "/coaxiom/static/js/2.f77bad7b.chunk.js.LICENSE.txt",
+    "static/media/showcase.css": "/coaxiom/static/media/business1.61239880.jpg",
+    "static/media/homecards.css": "/coaxiom/static/media/risk1.59005cd4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec98a8c1.js",
+    "static/js/2.f77bad7b.chunk.js",
+    "static/css/main.62af85bd.chunk.css",
+    "static/js/main.9773de8a.chunk.js"
+  ]
+}
