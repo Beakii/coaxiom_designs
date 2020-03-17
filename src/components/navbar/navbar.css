@@ -1,0 +1,70 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px, 0;
+    font-size: 15x;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul .link-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav ul li {
+    padding: 0px 10px;
+}
+
+.main-nav ul li a{
+    color: black;
+    padding-bottom: 5px;
+}
+
+.underline-slider{
+    width: 0%;
+    height: 2px;
+    background-color: rgb(18, 87, 177);
+    transition: width 1s ease;
+}
+
+.main-nav ul li:hover .underline-slider{
+    width: 100%;
+}
+
+.logo{
+    width: 150px;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    transition: ease 500ms;
+}
+
+.accented-x{
+    transition: ease 500ms;
+}
+
+.logo:hover .accented-x{
+    font-style: italic;
+    font-size: 40px;
+    color: red;
+}
+
+.logo:hover{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

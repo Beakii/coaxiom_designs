@@ -1,0 +1,71 @@
+.image{
+    height: 200px;
+    width: 100%;
+    filter: grayscale(70%) opacity(0.7);
+    transition: 600ms;
+}
+
+.consulting-image{
+    background: url("./images/consulting1.jpg") center no-repeat;
+}
+
+.risk-image{
+    background: url("./images/risk1.jpg") center no-repeat;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* RISK IMAGES*/
+.risk:hover .image{
+    filter: grayscale(0%) opacity(1);
+}
+
+.risk:hover i {
+    margin-left: 10px;
+    color: rgb(18, 87, 177);
+}
+
+.risk:hover .read-more{
+    color: rgb(18, 87, 177);
+}
+/* RISK IMAGES*/
+/*--------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------*/
+/* CONSULTING IMAGES*/
+.consulting:hover .image{
+    filter: grayscale(0%) opacity(1);
+}
+
+.consulting:hover i {
+    margin-left: 10px;
+    color: rgb(18, 87, 177);
+}
+
+.consulting:hover .read-more{
+    color: rgb(18, 87, 177);
+}
+/* CONSULTING IMAGES*/
+/*--------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------*/
+/* COMPLIANCE IMAGES*/
+.compliance:hover .image{
+    filter: grayscale(0%) opacity(1);
+}
+
+.compliance:hover i {
+    margin-left: 10px;
+    color: rgb(18, 87, 177);
+}
+
+.compliance:hover .read-more{
+    color: rgb(18, 87, 177);
+}
+/* COMPLIANCE IMAGES*/
+/*--------------------------------------------------------------------------------*/
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
