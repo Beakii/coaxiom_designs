@@ -1,8 +1,9 @@
 import React from 'react';
+import './designTwo.css';
 
 const DesignTwo = () => {
     return(
-        <div>design two WIP</div>
+        <p className="wip">Design Two WIP</p>
     );
 }
 

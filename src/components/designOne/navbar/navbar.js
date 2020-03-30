@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './navbar.css';
 import {Link} from 'react-router-dom';
 
+
 const Navbar = () => {
+    const [menuState, setMenuState] = useState(false);
+
     return (
         <nav className="main-nav">
             <Link>
@@ -11,10 +14,9 @@ const Navbar = () => {
                     <span className="accented-x">x</span>
                     iom
                 </h1>
-            </Link>
-            
+            </Link>          
 
-            <ul className="main-menu">
+            <ul className={menuState ? "menu-active" : "main-menu"}>
                 <li className="link-item">
                     <Link>
                         Home
@@ -50,6 +52,12 @@ const Navbar = () => {
                     <span className="underline-slider"></span>
                 </li>
             </ul>
+
+            <div className={menuState ? "fixed-burger" : "hamburger-menu"} onClick={()=>setMenuState(!menuState)}>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+            </div>  
         </nav>
     );
 }

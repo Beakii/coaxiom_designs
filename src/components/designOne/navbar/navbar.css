@@ -1,39 +1,116 @@
+@media only screen and (min-width: 700px){
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .main-nav ul{
+        display: flex;
+    }
+    
+    .main-nav ul .link-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-nav ul li {
+        padding: 0px 10px;
+    }
+    
+    .main-nav ul li a{
+        color: black;
+        padding-bottom: 5px;
+    }
+    
+    .underline-slider{
+        width: 0%;
+        height: 2px;
+        background-color: rgb(18, 87, 177);
+        transition: width 1s ease;
+    }
+    
+    .main-nav ul li:hover .underline-slider{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 699px){
+
+    .main-menu{
+        right: -300px!important;
+        transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+    }
+
+    .menu-active{
+        right: 0px;
+        transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+    }
+
+    .fixed-burger{
+        position: fixed;
+        right: 5%;
+        width: 35px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 10;
+    }
+
+    .main-nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        padding: 2rem;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        background-color: rgb(65, 65, 65);
+    }
+
+    .main-nav ul li{
+        padding: 1rem 0;
+    }
+
+    .hamburger-menu{
+        width: 35px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 10;
+    }
+
+    .hamburger-menu:hover{
+        cursor: pointer;
+    }
+
+    .line{
+        width: 100%;
+        height: 3px;
+        background-color: royalblue;
+    }
+
+    .link-item a{
+        color: white;
+    }
+
+    .link-item a:hover{
+        color: rgb(131, 169, 243);
+    }
+
+}
+
 .main-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 20px, 0;
-    font-size: 15x;
-}
-
-.main-nav ul{
-    display: flex;
-}
-
-.main-nav ul .link-item{
-    display: flex;
-    flex-direction: column;
-}
-
-.main-nav ul li {
-    padding: 0px 10px;
-}
-
-.main-nav ul li a{
-    color: black;
-    padding-bottom: 5px;
-}
-
-.underline-slider{
-    width: 0%;
-    height: 2px;
-    background-color: rgb(18, 87, 177);
-    transition: width 1s ease;
-}
-
-.main-nav ul li:hover .underline-slider{
-    width: 100%;
+    font-size: 15px;
 }
 
 .logo{
