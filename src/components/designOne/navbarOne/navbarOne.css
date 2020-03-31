@@ -1,52 +1,52 @@
 @media only screen and (min-width: 700px){
 
-    .hamburger-menu{
+    .d1-hamburger-menu{
         display: none;
     }
 
-    .main-nav ul{
+    .d1-main-nav ul{
         display: flex;
     }
     
-    .main-nav ul .link-item{
+    .d1-main-nav ul .d1-link-item{
         display: flex;
         flex-direction: column;
     }
     
-    .main-nav ul li {
+    .d1-main-nav ul li {
         padding: 0px 10px;
     }
     
-    .main-nav ul li a{
+    .d1-main-nav ul li a{
         color: black;
         padding-bottom: 5px;
     }
     
-    .underline-slider{
+    .d1-underline-slider{
         width: 0%;
         height: 2px;
         background-color: rgb(18, 87, 177);
         transition: width 1s ease;
     }
     
-    .main-nav ul li:hover .underline-slider{
+    .d1-main-nav ul li:hover .d1-underline-slider{
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 699px){
 
-    .main-menu{
+    .d1-main-menu{
         right: -300px!important;
         transition: right 0.8s cubic-bezier(1, 0, 0, 1);
     }
 
-    .menu-active{
+    .d1-menu-active{
         right: 0px;
         transition: right 0.8s cubic-bezier(1, 0, 0, 1);
     }
 
-    .fixed-burger{
+    .d1-fixed-burger{
         position: fixed;
         right: 5%;
         width: 35px;
@@ -57,7 +57,11 @@
         z-index: 10;
     }
 
-    .main-nav ul{
+    .d1-fixed-burger:hover{
+        cursor: pointer;
+    }
+
+    .d1-main-nav ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -71,11 +75,11 @@
         background-color: rgb(65, 65, 65);
     }
 
-    .main-nav ul li{
+    .d1-main-nav ul li{
         padding: 1rem 0;
     }
 
-    .hamburger-menu{
+    .d1-hamburger-menu{
         width: 35px;
         height: 30px;
         display: flex;
@@ -84,27 +88,27 @@
         z-index: 10;
     }
 
-    .hamburger-menu:hover{
+    .d1-hamburger-menu:hover{
         cursor: pointer;
     }
 
-    .line{
+    .d1-line{
         width: 100%;
         height: 3px;
         background-color: royalblue;
     }
 
-    .link-item a{
+    .d1-link-item a{
         color: white;
     }
 
-    .link-item a:hover{
+    .d1-link-item a:hover{
         color: rgb(131, 169, 243);
     }
 
 }
 
-.main-nav{
+.d1-main-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -113,7 +117,7 @@
     font-size: 15px;
 }
 
-.logo{
+.d1-logo{
     width: 150px;
     height: 100%;
     font-size: 30px;
@@ -123,17 +127,17 @@
     transition: ease 500ms;
 }
 
-.accented-x{
+.d1-accented-x{
     transition: ease 500ms;
 }
 
-.logo:hover .accented-x{
+.d1-logo:hover .d1-accented-x{
     font-style: italic;
     font-size: 40px;
     color: red;
 }
 
-.logo:hover{
+.d1-logo:hover{
     padding-bottom: 10px;
 }
 

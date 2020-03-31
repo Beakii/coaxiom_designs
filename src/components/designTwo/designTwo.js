@@ -1,9 +1,14 @@
 import React from 'react';
 import './designTwo.css';
+import NavbarTwo from './navbarTwo/navbarTwo';
+import MainContent from './mainContent/content';
 
 const DesignTwo = () => {
     return(
-        <p className="wip">Design Two WIP</p>
+        <div className="design-two">
+            <NavbarTwo/>
+            <MainContent/>
+        </div>
     );
 }
 

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import './navbar.css';
+import './navbarTwo.css';
 import {Link} from 'react-router-dom';
 
 
-const Navbar = () => {
+const NavbarTwo = () => {
     const [menuState, setMenuState] = useState(false);
 
     return (
@@ -19,35 +19,21 @@ const Navbar = () => {
             <ul className={menuState ? "menu-active" : "main-menu"}>
                 <li className="link-item">
                     <Link>
-                        Home
+                        about
                     </Link>
                     <span className="underline-slider"></span>
                 </li>
 
                 <li className="link-item">
                     <Link>
-                        About Us
+                        services
                     </Link>
                     <span className="underline-slider"></span>
                 </li>
 
                 <li className="link-item">
                     <Link>
-                        Services
-                    </Link>
-                    <span className="underline-slider"></span>
-                </li>
-
-                <li className="link-item">
-                    <Link>
-                        Resources
-                    </Link>
-                    <span className="underline-slider"></span>
-                </li>
-
-                <li className="link-item">
-                    <Link>
-                        Contact Us
+                        contact
                     </Link>
                     <span className="underline-slider"></span>
                 </li>
@@ -57,9 +43,9 @@ const Navbar = () => {
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>
-            </div>  
+            </div>
         </nav>
     );
 }
 
-export default Navbar;
+export default NavbarTwo;

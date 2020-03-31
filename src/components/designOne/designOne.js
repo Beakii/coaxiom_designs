@@ -1,12 +1,13 @@
 import React from 'react';
-import Navbar from './navbar/navbar';
+import NavbarOne from './navbarOne/navbarOne';
 import Homepage from './mainContent/homepage';
 import Footer from './footer/footer';
+import './designOne.css';
 
 const DesignOne = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className="design-one">
+            <NavbarOne/>
             <Homepage/>
             <Footer/>
         </div>
