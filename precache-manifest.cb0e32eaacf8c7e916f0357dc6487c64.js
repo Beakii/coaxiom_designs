@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08dbf8d66e2e8d46adc35205a6483410",
+    "revision": "b19ebe838e29dd28ca331a695058607d",
     "url": "/coaxiom/index.html"
   },
   {
-    "revision": "c0bcb9d21a33ade9c408",
-    "url": "/coaxiom/static/css/main.a6abe7ec.chunk.css"
+    "revision": "7d82a1259c1981030cd5",
+    "url": "/coaxiom/static/css/main.2a967b97.chunk.css"
   },
   {
-    "revision": "7d1b3643c4954f63b13c",
-    "url": "/coaxiom/static/js/2.4b17af41.chunk.js"
+    "revision": "d024b877e4c9c4461c4d",
+    "url": "/coaxiom/static/js/2.1291bb62.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/coaxiom/static/js/2.4b17af41.chunk.js.LICENSE.txt"
+    "url": "/coaxiom/static/js/2.1291bb62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0bcb9d21a33ade9c408",
-    "url": "/coaxiom/static/js/main.897b1bfb.chunk.js"
+    "revision": "7d82a1259c1981030cd5",
+    "url": "/coaxiom/static/js/main.167e2ae3.chunk.js"
   },
   {
     "revision": "50b561c213cee92d50da",
@@ -34,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59005cd4ea6c93c36093010ad5e3fb21",
     "url": "/coaxiom/static/media/risk1.59005cd4.jpg"
+  },
+  {
+    "revision": "768b351dad71d556fd5f8c57eb9329c2",
+    "url": "/coaxiom/static/media/splash-img.768b351d.svg"
   }
 ]);
