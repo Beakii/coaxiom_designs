@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 900px){
 
     .hamburger-menu{
         display: none;
@@ -26,37 +26,24 @@
     .underline-slider{
         width: 0%;
         height: 2px;
-        background-color: rgb(255, 55, 115);
+        background-color: rgb(59, 184, 223);
         transition: width 1s ease;
     }
     
     .main-nav ul li:hover .underline-slider{
         width: 100%;
     }
-
-    .nav-overlay{
-        position: absolute;
-        height: 80px;
-    
-    
-        background-color: rgb(61, 61, 61);
-        width: 32.2vw;
-        right: 32.2%;
-    }
 }
 
-@media only screen and (max-width: 700px){
-
-    .nav-overlay{
-        display: none;
-    }
-
+@media only screen and (max-width: 900px){
     .main-menu{
-        right: -300px!important;
+        width: 50%;
+        right: -500px!important;
         transition: right 0.8s cubic-bezier(1, 0, 0, 1);
     }
 
     .menu-active{
+        width: 50%;
         right: 0px;
         transition: right 0.8s cubic-bezier(1, 0, 0, 1);
     }
@@ -111,7 +98,7 @@
     .line{
         width: 100%;
         height: 3px;
-        background-color: rgb(255, 55, 115);
+        background-color: rgb(59, 184, 223);
     }
 
     .link-item a{
@@ -156,7 +143,7 @@
 .logo:hover .accented-x{
     font-style: italic;
     font-size: 40px;
-    color: rgb(255, 55, 115);
+    color: rgb(59, 184, 223);
 }
 
 .logo:hover{

@@ -1,96 +1,123 @@
-.content-wrapper{
-    position: absolute;
-    height: calc(100vh - 80px);
-    width: 100vw;
-    background-color: rgb(41, 41, 41);
+*{
+    --primary-color: rgb(59, 184, 223);
 }
-
-/* ALWAYS APPLY ON LARGE SCREENS */
-@media only screen and (min-width: 700px){
-
-    .landing-title-container{
+/* Large Screens */
+@media only screen and (min-width: 900px){
+    .content-wrapper{
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        width: 100vw;
-        height: calc(45vh - 80px);
+        grid-template-columns: 1fr 1.2fr 1.5fr;
+        grid-template-rows: 1fr 4fr 3fr 2fr;
+        margin: 0;
+        height: calc(100vh - 80px);
     }
 
-    img{
-        z-index: 1;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 70%;
-        width: 47%;
-        opacity: 1;
+    .title-wrapper{
+        background-color: rgb(80, 80, 80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1 / 1 / 3 / 3;
     }
 
-    .container-top-right{
-        z-index: -1;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: rgb(41, 41, 41);
-        height: calc(45vh - 80px);
-        width: 47vw;
+    .title-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .container-bottom-right{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-
-        background-color: rgb(255, 126, 148);
-        height: 55vh;
-        width: 47vw
-    }
-}
-
-/* LARGE SCREEN */
-@media only screen and (min-width: 1700px){
-
-    .landing-title-container h1{
-        font-size: 7rem;
-        position: absolute;
-        top: 13%;
-        left: 6%;
-        color: white;
-    }
-
-    .landing-title-container h2{
+    .title-wrapper h1{
         font-size: 6rem;
-        color: rgb(255, 126, 148);
-        /* margin-bottom: 6rem; */
+        color: var(--primary-color);
     }
-}
 
-/* MEDIUM SCREENS */
-@media only screen and (max-width: 1699px){
-    .landing-title-container h1{
-        font-size: 7rem;
-        grid-column: span 3;
-        justify-self: center;
-        align-self: center;
+    .highlight-border{
+        height: 100px;
+        width: 20px;
+        margin-top: 1rem;
+        background-color: var(--primary-color);
+    }
+
+    .title-wrapper h2{
+        margin-left: 1rem;
+        font-size: 6rem;
         color: white;
     }
 
-    .landing-title-container h2{
-        z-index: 3;
-        font-size: 7rem;
-        grid-column: span 3;
-        justify-self: center;
-        align-self: center;
-
-        color: rgb(255, 126, 148);
-        /* margin-bottom: 6rem; */
+    .sub-wrapper{
+        display: flex;
+        align-items: center;
     }
-}
 
-/* MOBILE */
-@media only screen and (max-width: 700px){
+    section.bottom-image{
+        grid-area: 3 / 1 / 5 / 3;
+        background: url('../assets/splash.jpg') no-repeat;
+        background-size: cover;
+    }
 
-    img{
-        height: 50%;
-        width: 50%;
+    .information{
+        background-color: rgb(194, 241, 255);
+        grid-area: 1 / 3 / 4 / 4;
+    }
+
+    .information .flex-information{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-information .services{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .flex-information .contact{
+        flex: 1;
+        display: flex;
+    }
+
+    .flex-information .left{
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .flex-information .right{
+        flex: 1;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        background-color: rgb(29, 29, 29);
+        grid-row: 3 / 4 / 4 / 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .flex-list-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    footer .flex-list-wrapper ul li{
+        color: white;
+    }
+
+    footer .flex-list-wrapper ul li:hover{
+        color: rgb(89, 208, 255);
+    }
+
+    .list-header{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(89, 208, 255);
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid white;
     }
 }
