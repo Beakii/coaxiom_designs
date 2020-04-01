@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b19ebe838e29dd28ca331a695058607d",
+    "revision": "52665ef493f1bfda4a88e5a3e22756ce",
     "url": "/coaxiom/index.html"
   },
   {
-    "revision": "7d82a1259c1981030cd5",
-    "url": "/coaxiom/static/css/main.2a967b97.chunk.css"
+    "revision": "10332de766fae93a9882",
+    "url": "/coaxiom/static/css/main.e2153094.chunk.css"
   },
   {
     "revision": "d024b877e4c9c4461c4d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coaxiom/static/js/2.1291bb62.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d82a1259c1981030cd5",
-    "url": "/coaxiom/static/js/main.167e2ae3.chunk.js"
+    "revision": "10332de766fae93a9882",
+    "url": "/coaxiom/static/js/main.9ba62ade.chunk.js"
   },
   {
     "revision": "50b561c213cee92d50da",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coaxiom/static/media/risk1.59005cd4.jpg"
   },
   {
-    "revision": "768b351dad71d556fd5f8c57eb9329c2",
-    "url": "/coaxiom/static/media/splash-img.768b351d.svg"
+    "revision": "82e9b6eedccd5d32c9df0a2b444a7adb",
+    "url": "/coaxiom/static/media/splash.82e9b6ee.jpg"
   }
 ]);

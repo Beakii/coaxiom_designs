@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/coaxiom/static/css/main.2a967b97.chunk.css",
-    "main.js": "/coaxiom/static/js/main.167e2ae3.chunk.js",
-    "main.js.map": "/coaxiom/static/js/main.167e2ae3.chunk.js.map",
+    "main.css": "/coaxiom/static/css/main.e2153094.chunk.css",
+    "main.js": "/coaxiom/static/js/main.9ba62ade.chunk.js",
+    "main.js.map": "/coaxiom/static/js/main.9ba62ade.chunk.js.map",
     "runtime-main.js": "/coaxiom/static/js/runtime-main.ec98a8c1.js",
     "runtime-main.js.map": "/coaxiom/static/js/runtime-main.ec98a8c1.js.map",
     "static/js/2.1291bb62.chunk.js": "/coaxiom/static/js/2.1291bb62.chunk.js",
     "static/js/2.1291bb62.chunk.js.map": "/coaxiom/static/js/2.1291bb62.chunk.js.map",
     "index.html": "/coaxiom/index.html",
-    "precache-manifest.cb0e32eaacf8c7e916f0357dc6487c64.js": "/coaxiom/precache-manifest.cb0e32eaacf8c7e916f0357dc6487c64.js",
+    "precache-manifest.b7f395074beb90bf5b9ba11186cb9c2a.js": "/coaxiom/precache-manifest.b7f395074beb90bf5b9ba11186cb9c2a.js",
     "service-worker.js": "/coaxiom/service-worker.js",
-    "static/css/main.2a967b97.chunk.css.map": "/coaxiom/static/css/main.2a967b97.chunk.css.map",
+    "static/css/main.e2153094.chunk.css.map": "/coaxiom/static/css/main.e2153094.chunk.css.map",
     "static/js/2.1291bb62.chunk.js.LICENSE.txt": "/coaxiom/static/js/2.1291bb62.chunk.js.LICENSE.txt",
     "static/media/showcase.css": "/coaxiom/static/media/business1.61239880.jpg",
     "static/media/homecards.css": "/coaxiom/static/media/risk1.59005cd4.jpg",
-    "static/media/splash-img.svg": "/coaxiom/static/media/splash-img.768b351d.svg"
+    "static/media/content.css": "/coaxiom/static/media/splash.82e9b6ee.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ec98a8c1.js",
     "static/js/2.1291bb62.chunk.js",
-    "static/css/main.2a967b97.chunk.css",
-    "static/js/main.167e2ae3.chunk.js"
+    "static/css/main.e2153094.chunk.css",
+    "static/js/main.9ba62ade.chunk.js"
   ]
 }
