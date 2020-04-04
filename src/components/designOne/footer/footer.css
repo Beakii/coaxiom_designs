@@ -3,14 +3,14 @@
     justify-content: center;
     align-items: center;
 
-    position: absolute;
-    margin-top: 7rem;
     background-color: rgb(65, 65, 65);
     color: white;
 
+    margin-top: 3rem;
     width: 100%;
     left: 0;
-    height: 15.5%;
+    bottom: 0;
+    height: 10vh;
 }
 
 ul{

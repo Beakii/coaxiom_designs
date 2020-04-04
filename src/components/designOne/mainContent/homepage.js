@@ -4,7 +4,7 @@ import Homecards from './homecards/homecards';
 
 const Homepage = () =>{
     return(
-        <div>
+        <div className="homepage">
             <Showcase/>
             <Homecards/>
         </div>
