@@ -2,15 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
 
     background-color: rgb(65, 65, 65);
     color: white;
 
     margin-top: 3rem;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    height: 10vh;
+    height: 14vh;
 }
 
 ul{
