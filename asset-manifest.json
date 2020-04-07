@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coaxiom/static/css/main.89d14ce3.chunk.css",
-    "main.js": "/coaxiom/static/js/main.c7be9063.chunk.js",
-    "main.js.map": "/coaxiom/static/js/main.c7be9063.chunk.js.map",
+    "main.css": "/coaxiom/static/css/main.74209e00.chunk.css",
+    "main.js": "/coaxiom/static/js/main.49a2277e.chunk.js",
+    "main.js.map": "/coaxiom/static/js/main.49a2277e.chunk.js.map",
     "runtime-main.js": "/coaxiom/static/js/runtime-main.ec98a8c1.js",
     "runtime-main.js.map": "/coaxiom/static/js/runtime-main.ec98a8c1.js.map",
     "static/js/2.1291bb62.chunk.js": "/coaxiom/static/js/2.1291bb62.chunk.js",
     "static/js/2.1291bb62.chunk.js.map": "/coaxiom/static/js/2.1291bb62.chunk.js.map",
     "index.html": "/coaxiom/index.html",
-    "precache-manifest.c226a6e20daab1d7cde0beff0efc1728.js": "/coaxiom/precache-manifest.c226a6e20daab1d7cde0beff0efc1728.js",
+    "precache-manifest.d10e40400d72ec9376d1d69e45c98fc1.js": "/coaxiom/precache-manifest.d10e40400d72ec9376d1d69e45c98fc1.js",
     "service-worker.js": "/coaxiom/service-worker.js",
-    "static/css/main.89d14ce3.chunk.css.map": "/coaxiom/static/css/main.89d14ce3.chunk.css.map",
+    "static/css/main.74209e00.chunk.css.map": "/coaxiom/static/css/main.74209e00.chunk.css.map",
     "static/js/2.1291bb62.chunk.js.LICENSE.txt": "/coaxiom/static/js/2.1291bb62.chunk.js.LICENSE.txt",
     "static/media/showcase.css": "/coaxiom/static/media/business1.61239880.jpg",
     "static/media/homecards.css": "/coaxiom/static/media/risk1.59005cd4.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.ec98a8c1.js",
     "static/js/2.1291bb62.chunk.js",
-    "static/css/main.89d14ce3.chunk.css",
-    "static/js/main.c7be9063.chunk.js"
+    "static/css/main.74209e00.chunk.css",
+    "static/js/main.49a2277e.chunk.js"
   ]
 }
