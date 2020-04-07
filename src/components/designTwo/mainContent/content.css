@@ -371,6 +371,10 @@
         padding-bottom: 0.5rem;
         border-bottom: 2px solid white;
     }
+
+    .title-wrapper i {
+        display: none;
+    }
 }
 
 /* Small Screens */
