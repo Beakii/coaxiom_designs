@@ -1,5 +1,6 @@
 import React from 'react';
 import './content.css';
+import {Link} from 'react-router-dom';
 
 const MainContent = () => {
     return(
@@ -15,11 +16,13 @@ const MainContent = () => {
                         <h2>Consulting</h2>
                     </div>
                 </div>
+
+                <i class="fas fa-chevron-down"></i>
             </div>
 
             <section className="bottom-image"></section>
 
-            <section className="information">
+            <section className="information" id="#test">
                 <div className="flex-information">
 
                     <div className="services">
